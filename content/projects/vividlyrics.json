@@ -1,0 +1,33 @@
+{
+  "slug": "vividlyrics",
+  "title": "VividLyrics",
+  "category": "Music Streaming",
+  "year": "2024",
+  "role": "Lead UX Designer",
+  "duration": "3 months",
+  "team": "2 designers, 4 engineers",
+  "tags": ["UX Design", "Interaction Design", "Branding"],
+  "heroImage": "https://framerusercontent.com/images/MJOOw9tmroi1TKnukmnv1IO5po.jpg",
+  "bannerImage": "https://framerusercontent.com/images/85c58k6PQR5kqRRAdVdhxZEyOkg.png",
+  "overview": "VividLyrics is a next-generation music streaming platform that blends real-time lyrics display with immersive, artist-driven visual storytelling. The goal was to transform passive listening into an active, emotional experience.",
+  "challenge": "Users were disconnected from the music they loved. Existing streaming platforms treated lyrics as an afterthought, buried in menus, stripped of visual context. Fans wanted to feel the music — not just hear it.",
+  "solution": "We designed a lyric-first experience where the interface dynamically responds to the mood and tempo of each track. Custom colour palettes, artist artwork, and kinetic typography keep users immersed throughout playback.",
+  "research": [
+    "Interviewed 24 active music listeners aged 18–34",
+    "Ran diary studies across 2 weeks to capture passive vs. active listening habits",
+    "Benchmarked 6 existing streaming apps for lyric display patterns",
+    "Discovered 78% of users wanted a 'concert-like' connection to the music"
+  ],
+  "process": [
+    { "step": "Discovery", "description": "User interviews and competitive analysis revealed a clear gap: lyric experiences were static and visually uninspiring." },
+    { "step": "Ideation", "description": "Workshop with the product team to explore kinetic typography, colour theming, and gesture-based controls." },
+    { "step": "Prototyping", "description": "High-fidelity Framer prototypes tested with 15 participants across 3 iterations." },
+    { "step": "Handoff", "description": "Delivered a comprehensive design system with component tokens and motion guidelines." }
+  ],
+  "results": [
+    "42% increase in session duration during beta",
+    "89% of test users rated the lyric experience 'highly engaging'",
+    "Featured in Dribbble's Top Shots for 2024"
+  ],
+  "nextProject": "ecopulse"
+}

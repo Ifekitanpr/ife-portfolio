@@ -1,0 +1,125 @@
+{
+  "slug": "vpd-money",
+  "title": "VPD Money",
+  "category": "Personal Banking & Fintech",
+  "year": "2023",
+  "role": "UI/UX Designer",
+  "duration": "8 weeks",
+  "team": "Product, engineering & design",
+  "tags": ["Mobile Product Design", "UI Redesign", "Design Systems"],
+  "heroImage": "/projects/vpd-money/cover.png",
+  "bannerImage": "/projects/vpd-money/website-hero.png",
+  "overview": "VPD Money is a Nigerian fintech platform targeting the unbanked and underbanked. I joined the team to lead the 2.0 redesign, inheriting prior research and a design system, then driving UI/UX improvements that grew the active customer base from 12,000 to 35,000.",
+  "challenge": "VPD Money 1.4 had a functional foundation but fell short on accessibility, visual modernity, and the personalised experience that builds loyalty. The platform needed to feel as capable as its ambition, serving a diverse user base while staying intuitive for people encountering digital banking for the first time.",
+  "solution": "A comprehensive redesign of the core banking experience: guided onboarding, a customisable account system, a simplified dashboard, expanded payment flows, dark mode, and a segmented notification system. Each change was validated through internal review and usability testing before implementation.",
+  "research": [
+    "Audited the 1.4 version to identify accessibility gaps and navigation friction across core flows",
+    "Reviewed prior research and user feedback inherited from the previous designer to avoid losing valuable context",
+    "Analysed the competitive landscape to identify where VPD Money could differentiate, particularly around customisation and borderless transfers",
+    "Prioritised improvements by user impact: onboarding clarity, dashboard usability, and payment comprehensiveness came first"
+  ],
+  "process": [
+    {
+      "step": "Audit & inherit",
+      "description": "Reviewed the 1.4 product and inherited the design system and prior research. Conducted my own UX audit to build a clear picture of where the experience broke down before touching anything."
+    },
+    {
+      "step": "User-centric prioritisation",
+      "description": "Focused improvements on the moments that mattered most: onboarding confidence, dashboard clarity, and payment reliability, rather than surface-level visual changes across the board."
+    },
+    {
+      "step": "Iterative design and development",
+      "description": "Worked directly with developers to ship features incrementally, validating at each stage and adapting designs based on real implementation feedback."
+    },
+    {
+      "step": "Refinement and launch",
+      "description": "Ran internal reviews and usability tests throughout to tighten interaction patterns and ensure the product felt cohesive before going live."
+    }
+  ],
+  "personas": [
+    {
+      "name": "Chiamaka",
+      "role": "Account executive, Lagos",
+      "image": "/personas/chiamaka.jpg",
+      "context": "A young professional who handles all her finances on her phone, sending money home monthly, paying subscriptions, and splitting bills with flatmates. She evaluates a banking app the same way she evaluates any product: does it get out of my way?",
+      "painPoint": "The 1.4 interface forced her to hunt through menus for basic actions. She frequently landed in the wrong flow mid-transfer and had to start over, eroding trust in an app handling real money.",
+      "goal": "Complete every banking task in under 90 seconds without second-guessing herself. One tap to fund, one tap to transfer, done."
+    },
+    {
+      "name": "Chidi",
+      "role": "Online merchant & micro-entrepreneur",
+      "image": "/personas/chidi.jpg",
+      "context": "Runs a small clothing business, collecting payments from customers across Nigeria, pays suppliers, and tracks cash flow on his phone between fulfilment runs. VPD Money is both his business account and his personal wallet.",
+      "painPoint": "Mixing personal and business transactions in one account makes it nearly impossible to tell how the business is actually doing at the end of the month.",
+      "goal": "Accept payments, pay out to suppliers, and see a clear picture of money in versus money out, without needing a separate account or spreadsheet."
+    }
+  ],
+  "designDecisions": [
+    {
+      "decision": "Make customisation the differentiator",
+      "rationale": "No major competitor offered the ability to personalise your account name, colour theme, feature set, and alert preferences. Building this into the core onboarding experience made VPD Money feel like a personal bank, not just another shared platform."
+    },
+    {
+      "decision": "Design onboarding for first-time digital banking users",
+      "rationale": "A significant portion of the target audience was new to digital banking entirely. Onboarding avoided unnecessary data requests like gender, used plain language, and led users directly into customisation, making early ownership feel tangible."
+    },
+    {
+      "decision": "Simplify the dashboard without reducing power",
+      "rationale": "The 1.4 dashboard buried key actions inside navigation. The redesign surfaced funding, transfers, and bill payments at the top level, while sub-accounts and recurring payments remained accessible without cluttering the primary view."
+    },
+    {
+      "decision": "Introduce dark mode as a user-requested feature",
+      "rationale": "Multiple users had explicitly requested a dark theme. Adding it addressed a direct ask, followed modern design conventions, and improved readability in low-light conditions, a real consideration for a mobile-first, all-day banking app."
+    }
+  ],
+  "visualSections": [
+    {
+      "title": "Onboarding Screens",
+      "description": "The onboarding flow avoided unnecessary data requests and used clear, direct language to guide users through identity verification and account creation, reducing friction for people encountering digital banking for the first time.",
+      "image": "/projects/vpd-money/onboarding.png",
+      "imageClass": "contain-dark"
+    },
+    {
+      "title": "Customization Experience",
+      "description": "Immediately after onboarding, users could personalise their account name, choose a colour theme, enable specific banking features, and configure fund alert preferences, making the account feel personal from day one.",
+      "image": "/projects/vpd-money/customization.png",
+      "imageClass": "contain-dark"
+    },
+    {
+      "title": "Simplified Dashboard & Menu",
+      "description": "The redesigned dashboard surfaced core actions (funding, transfers, bill payments) without the clutter of the 1.4 layout. Sub-accounts, transaction history, and card management were accessible without navigating deep menus.",
+      "image": "/projects/vpd-money/dashboard.png",
+      "imageClass": "contain-dark"
+    },
+    {
+      "title": "Payments: Funding, Transfers and Recurring",
+      "description": "A comprehensive payments experience covering account funding, external transfers, bill payments, and recurring transaction scheduling, all within a consistent, predictable flow.",
+      "image": "/projects/vpd-money/payments.png",
+      "imageClass": "contain-dark"
+    },
+    {
+      "title": "Notifications & More",
+      "description": "The 'More' section and segmented notification system gave users granular control over banking preferences and communication, surfacing the right information at the right time without overwhelming the experience.",
+      "image": "/projects/vpd-money/notifications.png",
+      "imageClass": "contain-dark"
+    },
+    {
+      "title": "Dark Mode",
+      "description": "Introduced following sustained user requests, the dark theme reduced glare, improved readability in low-light environments, and brought VPD Money in line with modern expectations for a daily-use financial app.",
+      "image": "/projects/vpd-money/dark-mode.png",
+      "imageClass": "contain-light"
+    }
+  ],
+  "results": [
+    "192% growth in active customers: from 12,000 to 35,000, directly following the 2.0 launch",
+    "Delivered a fully customisable banking experience: the only major Nigerian fintech offering account personalisation at this depth",
+    "Simplified onboarding reduced drop-off for first-time digital banking users joining from the unbanked segment",
+    "Dark mode and segmented notifications shipped as the two most-requested user improvements, resolved in a single release"
+  ],
+  "learnings": [
+    "Inheriting a project mid-stream demands respect for prior decisions. Understanding the reasoning behind existing patterns made it possible to improve what was not working without discarding what was.",
+    "Designing for the unbanked means designing for users who are learning digital banking and your product simultaneously. Inclusivity cannot be an afterthought, it has to shape how you write, structure, and sequence everything.",
+    "Collaboration across specialties like motion design, illustration, and content strategy, would have elevated the outcome further. A sole designer can ship a strong product, but a team of specialists creates a remarkable one."
+  ],
+  "nextProject": "healthmate"
+}

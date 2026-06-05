@@ -1,0 +1,98 @@
+{
+  "slug": "wash",
+  "title": "Wash: Care On Demand",
+  "category": "On-Demand Laundry & Garment Care",
+  "year": "2025",
+  "role": "Product Designer",
+  "duration": "3 weeks",
+  "team": "Product, operations & engineering",
+  "tags": ["Mobile Product Design", "Service Design", "Design Systems"],
+  "heroImage": "/projects/wash/hero.png",
+  "bannerImage": "/projects/wash/hero.png",
+  "overview": "Wash is a Nigeria-based laundry and garment-care platform bringing everyday laundry, dry cleaning, luxury garment care, shoe and bag restoration, and self-service laundromat booking into one clear mobile experience.",
+  "challenge": "Laundry is recurring and time-sensitive, yet users lacked clarity around pricing, service differences, pickup expectations, and order status. The expanding service catalogue risked making the experience feel fragmented and difficult to trust.",
+  "solution": "I designed Wash as a connected service ecosystem. Each service has a focused journey, while shared patterns across onboarding, ordering, tracking, payments, and post-order interactions keep the experience intuitive, transparent, and scalable.",
+  "research": [
+    "Mapped every Wash service to identify overlaps and unique operational requirements",
+    "Prioritised friction around service confusion, uncertain pricing, and limited post-pickup visibility",
+    "Structured flows around three core user intents: place an order, track progress, or manage preferences",
+    "Validated the system with users and implemented improvements that reduced decision fatigue"
+  ],
+  "personas": [
+    {
+      "name": "Amara",
+      "role": "Time-poor professional",
+      "image": "/personas/amara.jpg",
+      "context": "A busy Lagos professional who needs reliable weekly laundry pickup without spending time calling, negotiating, or following up.",
+      "painPoint": "She cannot tell what a service will cost or what is happening after her clothes leave her hands.",
+      "goal": "Schedule in minutes, understand the price, and trust every status update."
+    },
+    {
+      "name": "Tunde",
+      "role": "Premium-care customer",
+      "image": "/personas/tunde.jpg",
+      "context": "Owns designer garments, shoes, and bags and needs specialist care rather than a generic laundry service.",
+      "painPoint": "Everyday laundry flows do not provide enough detail, reassurance, or control for valuable items.",
+      "goal": "Choose the right treatment confidently and know his items are handled by experts."
+    }
+  ],
+  "process": [
+    { "step": "Moodboard", "description": "Analysed product personas and created a clear visual direction balancing everyday convenience with premium garment care." },
+    { "step": "Service Architecture", "description": "Separated distinct service journeys while defining shared patterns for ordering, tracking, payments, and support." },
+    { "step": "Design System", "description": "Created a tailored mobile design system to keep an expanding set of services cohesive and efficient." },
+    { "step": "Validation", "description": "Tested the journeys with users and refined unclear decisions, states, and service-selection moments." }
+  ],
+  "designDecisions": [
+    {
+      "decision": "Organise around intent, not the company structure",
+      "rationale": "Users arrive wanting to place an order, track progress, or understand a service. Making those intents the primary architecture keeps the product useful even as Wash adds more business lines."
+    },
+    {
+      "decision": "Keep specialist care distinct but familiar",
+      "rationale": "Luxury garments and restoration need more explanation and reassurance than everyday laundry. Their journeys use richer information while preserving shared navigation, actions, and status patterns."
+    },
+    {
+      "decision": "Make the invisible service visible",
+      "rationale": "Trust drops after pickup because the user cannot see the work happening. Clear order states, pricing expectations, and next actions turn an opaque offline process into a predictable experience."
+    }
+  ],
+  "visualSections": [
+    {
+      "title": "Service-First Home Dashboard",
+      "description": "A unified home experience that surfaces active orders, available services, and quick actions without friction, so every return visit starts with clarity.",
+      "images": [
+        "/projects/wash/dashboard-1.png",
+        "/projects/wash/dashboard-2.png",
+        "/projects/wash/dashboard-3.png"
+      ],
+      "aspectRatio": "4640/3545",
+      "imageClass": "contain"
+    },
+    {
+      "title": "Guided Order Placement",
+      "description": "A focused multi-step ordering flow that makes pricing expectations clear, reduces decision fatigue, and confirms every detail before the pickup is booked.",
+      "image": "/projects/wash/order-flow.png"
+    },
+    {
+      "title": "EleganceHub & LaundryXpress",
+      "description": "Dedicated specialist journeys for luxury garment care and self-service laundromat booking, each with the right level of detail and reassurance, built on shared interaction patterns.",
+      "image": "/projects/wash/elegancehub.png"
+    },
+    {
+      "title": "Transparent Order Tracking",
+      "description": "Clear status updates and next-step visibility at every stage, turning an opaque offline process into a predictable, trust-building experience after pickup.",
+      "image": "/projects/wash/order-tracking.png"
+    }
+  ],
+  "results": [
+    "One coherent mobile platform for everyday, premium, restoration, and self-service care",
+    "Clearer service selection, pricing expectations, and order progress",
+    "A scalable design system supporting future services and deeper personalisation"
+  ],
+  "learnings": [
+    "Service design is often about making invisible operations legible. The interface earns trust by explaining what is happening when the customer cannot see the work.",
+    "Consistency does not mean forcing every service into one template. The strongest system preserves familiar interaction patterns while allowing specialist journeys to explain what makes them different.",
+    "A scalable product architecture should reflect stable user intentions, not a business org chart that may change next quarter."
+  ],
+  "nextProject": "zaron"
+}

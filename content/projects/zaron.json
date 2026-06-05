@@ -1,0 +1,93 @@
+{
+  "slug": "zaron",
+  "title": "Zaron Cosmetics",
+  "category": "Commerce & Operations",
+  "year": "2025",
+  "role": "Product Designer",
+  "duration": "End-to-end product redesign",
+  "team": "Product, engineering & operations",
+  "tags": ["Product Design", "E-commerce", "Design Systems"],
+  "heroImage": "/projects/zaron/hero.jpg",
+  "bannerImage": "/projects/zaron/hero.jpg",
+  "overview": "Zaron Cosmetics is an established African beauty brand creating inclusive makeup for melanin-rich skin. I designed a connected digital ecosystem that serves customers shopping for beauty products and internal teams managing orders, inventory, performance, and consultant operations.",
+  "challenge": "The existing digital experience was built on a generic third-party e-commerce CMS that was never designed for Zaron's scale, brand, or operational complexity. Customers couldn't confidently find or choose products. Internal teams worked around the system rather than with it. The platform had outgrown itself.",
+  "solution": "I mapped the complete ecosystem, defined focused user flows, and designed a scalable storefront, four-step checkout, back-office dashboard, and dedicated consultant web app. The system balances Zaron's premium brand expression with speed, clarity, and operational control.",
+  "research": [
+    "Mapped the complete journey from product discovery through fulfilment",
+    "Identified friction across shade selection, checkout, inventory, and order management",
+    "Separated customer, operations, and consultant needs into distinct product experiences",
+    "Built reusable components to keep the expanding ecosystem consistent"
+  ],
+  "personas": [
+    {
+      "name": "Adaeze O.",
+      "role": "Loyal Zaron Customer",
+      "image": "/personas/adaeze.jpg",
+      "context": "A working professional in Lagos who shops for makeup online 2–3 times a month. She knows what she likes but often buys from competitors because the Zaron site made it hard to find her shade or complete a purchase without friction.",
+      "painPoint": "Shade discovery on the old site was guesswork. No swatches,, vague product names, and a checkout that felt like it was testing her patience.",
+      "goal": "Browse confidently, find the right shade for her complexion, and complete a purchase in under five minutes."
+    },
+    {
+      "name": "Emeka T.",
+      "role": "Zaron Operations Manager",
+      "image": "/personas/emeka.jpg",
+      "context": "Manages daily order fulfilment and coordinates between the warehouse and the consultant network. He was spending hours each day exporting spreadsheets from the old CMS to understand what was happening across the business.",
+      "painPoint": "No single view of inventory, orders, and consultant activity; every decision required pulling data from three different places.",
+      "goal": "Handle daily operations from one workspace without manual workarounds."
+    }
+  ],
+  "process": [
+    { "step": "Rethink", "description": "Analysed the full ecosystem and translated fragmented customer and operational workflows into clear experience goals." },
+    { "step": "Structure", "description": "Defined the information architecture and core flows, prioritising mobile use, speed, and clear states." },
+    { "step": "Redesign", "description": "Created high-fidelity storefront and dashboard experiences with a reusable visual system." },
+    { "step": "Grow", "description": "Designed the system to support more products, roles, consultants, and operational insight over time." }
+  ],
+  "designDecisions": [
+    {
+      "decision": "Build four separate product surfaces, not one",
+      "rationale": "The old CMS tried to serve customers, staff, and consultants through the same interface. The result served no one well. Separating into a storefront, checkout flow, back-office dashboard, and consultant web app let each surface be designed for its specific job, with the right information density, navigation, and permissions for that user."
+    },
+    {
+      "decision": "Four-step checkout with visible progress over a single long form",
+      "rationale": "Cart abandonment on the previous platform was high partly because checkout felt endless and opaque. Breaking it into four named steps (Bag, Address, Payment, Confirm) gives shoppers a sense of control and makes it easy to backtrack without losing progress."
+    },
+    {
+      "decision": "Design system before final screens",
+      "rationale": "With four surfaces to ship, inconsistency at scale was the biggest risk. Establishing colour tokens, typography, button states, and form components early meant each surface felt native to Zaron, and the engineering team had a single reference rather than interpreting designs screen by screen."
+    }
+  ],
+  "visualSections": [
+    {
+      "title": "Shopper-First Storefront",
+      "description": "A premium, intuitive storefront with clearer categories, confident product discovery, and layouts designed for quick scanning.",
+      "image": "/projects/zaron/storefront-flow.png",
+      "layout": "storefront-pair"
+    },
+    {
+      "title": "Checkout in Four Steps",
+      "description": "A focused checkout flow that makes progress visible, reduces cognitive load, and removes distractions from conversion.",
+      "image": "/projects/zaron/checkout.gif"
+    },
+    {
+      "title": "Back-Office Dashboard",
+      "description": "Orders, inventory, users, and insights are centralised into a clear operational workspace built for everyday speed.",
+      "image": "/projects/zaron/admin.gif"
+    },
+    {
+      "title": "Dedicated Consultant App",
+      "description": "A distinct web app gives independent business consultants trusted visibility into performance, commissions, and activities.",
+      "image": "/projects/zaron/ibc.gif"
+    }
+  ],
+  "results": [
+    "One scalable ecosystem for customers, operations teams, and consultants",
+    "Simpler product discovery and a clearer four-step checkout",
+    "Reusable design foundations supporting future growth"
+  ],
+  "learnings": [
+    "Operational tools deserve the same design rigour as consumer products. The dashboard and consultant app weren't afterthoughts; they were half the project. Teams that use poorly designed internal tools lose time every day.",
+    "Redesigning an existing product means managing expectations on both sides. Stakeholders had mental models built around the old CMS. Every structural change needed a clear rationale, not just a better-looking screen.",
+    "A design system is a team deliverable, not a designer artefact. The most useful thing I built wasn't a single screen, it was the component library that let the engineering team build confidently without checking in on every edge case."
+  ],
+  "nextProject": "vividlyrics"
+}

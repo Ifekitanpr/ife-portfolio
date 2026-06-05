@@ -1,0 +1,87 @@
+{
+  "slug": "agile-digital-college",
+  "title": "Agile Digital College",
+  "category": "EdTech Ecosystem & Operations",
+  "year": "2025",
+  "role": "Lead UI/UX & Experience Strategist",
+  "duration": "6-month iterative product design",
+  "team": "Product, engineering, content & operations",
+  "tags": ["Product Strategy", "UX/UI Design", "Design Systems"],
+  "heroImage": "/projects/agile-digital-college/cover.png",
+  "bannerImage": "/projects/agile-digital-college/cover.png",
+  "overview": "Agile Digital College began as a landing-page brief and became a complete learning and operations ecosystem. Over six months, I helped turn a fragmented catalogue of professional courses into a custom platform through repeated exploration, testing, redesign, and refinement.",
+  "challenge": "ADC had a scale problem. More than 50 courses, high-stakes certification tracks, enterprise clients, learners, and internal teams all needed a single source of truth. Generic course platforms could host content, but they could not express ADC's premium positioning or support the depth of its operation.",
+  "solution": "I designed a connected five-part ecosystem: a scalable CMS approach for course marketing, a gamified LMS, a career-growth hub, an enterprise suite, and an internal command centre. A shared system keeps the experience coherent while each surface remains focused on its user's job.",
+  "research": [
+    "Mapped the complete learning business across acquisition, delivery, career growth, enterprise, and operations",
+    "Audited recurring course structures to find what should become reusable rather than redesigned",
+    "Studied the motivation gaps that make conventional learning dashboards feel passive",
+    "Defined distinct information needs for learners, employers, and ADC's internal team"
+  ],
+  "process": [
+    {
+      "step": "Frame the ecosystem",
+      "description": "Mapped every audience, product surface, and handoff to understand where one connected system needed to replace fragmented tools."
+    },
+    {
+      "step": "Create the language",
+      "description": "Established the deep-dark, electric visual direction and reusable foundations needed to make a large product feel precise and premium."
+    },
+    {
+      "step": "Build for repetition",
+      "description": "Designed flexible course templates and shared components so new programmes could launch without rebuilding the experience each time."
+    },
+    {
+      "step": "Validate the loops",
+      "description": "Tested, discarded, and rebuilt multiple versions of the critical journeys until course discovery, learning momentum, career growth, enterprise oversight, and daily administration worked as one system."
+    }
+  ],
+  "personas": [
+    {
+      "name": "Emeka",
+      "role": "Working professional & part-time learner",
+      "image": "/personas/emeka.jpg",
+      "context": "A mid-career operations analyst working full-time who enrols in ADC certification tracks to move into a senior or specialist role. He studies evenings and weekends, squeezing sessions between shifts and family commitments.",
+      "painPoint": "Passive video lectures and clunky progress dashboards make it hard to stay consistent when time is already scarce. He needs to know exactly where he is and what to do next.",
+      "goal": "Earn a recognised credential that advances his career without requiring him to leave his job or sacrifice his weekends to catch up."
+    },
+    {
+      "name": "Adaeze",
+      "role": "L&D Manager, corporate client",
+      "image": "/personas/adaeze.jpg",
+      "context": "Manages professional development for a mid-size firm. She enrols teams in ADC programmes as part of annual training budgets and is accountable to leadership for completion rates and ROI.",
+      "painPoint": "Without a clear dashboard, she has to chase each employee individually for status updates and has no easy way to prove the value of training spend to the executive team.",
+      "goal": "Enrol entire departments in one action, track progress without friction, and export completion evidence when it matters."
+    }
+  ],
+  "designDecisions": [
+    {
+      "decision": "Choose a custom ecosystem over platform convenience",
+      "rationale": "Kajabi or Teachable could host courses, but ADC's ambition crossed marketing, learning, career development, enterprise management, and internal operations. Treating those needs as one designed ecosystem created a defensible experience instead of another branded course portal."
+    },
+    {
+      "decision": "Design templates, not fifty one-off course pages",
+      "rationale": "The catalogue would keep growing. Category-level master templates created enough flexibility for every course to tell a distinct story while preserving a predictable conversion path and dramatically reducing future design and development effort."
+    },
+    {
+      "decision": "Make progress emotionally visible",
+      "rationale": "Completion percentages alone do not create momentum. Challenges, proficiency levels, badges, exam countdowns, and career-readiness feedback turn progress into a collection of meaningful signals learners can act on."
+    },
+    {
+      "decision": "Give each audience its own cockpit",
+      "rationale": "Learners, employers, and ADC operators have fundamentally different decisions to make. Dedicated surfaces let each audience see the right density, actions, and outcomes without inheriting everyone else's complexity."
+    }
+  ],
+  "results": [
+    "One connected product vision spanning acquisition, learning, career growth, enterprise, and operations",
+    "A reusable course-marketing system designed to scale beyond 50 programmes",
+    "A differentiated learning experience built around momentum rather than passive content consumption",
+    "Dedicated enterprise and back-office products that make the platform commercially and operationally scalable"
+  ],
+  "learnings": [
+    "The strongest design systems encode business strategy, not only visual consistency. Here, reusable course structures were as important as colour and components.",
+    "Engagement is most useful when it helps people make a better next decision. Every badge, chart, and progress signal needed to point learners toward action.",
+    "Large ecosystems become clearer when each audience gets a focused surface and the shared logic stays underneath."
+  ],
+  "nextProject": "zaron"
+}

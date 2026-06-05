@@ -1,0 +1,49 @@
+{
+  "slug": "healthmate",
+  "title": "HealthMate",
+  "category": "Healthcare",
+  "year": "2022",
+  "role": "UX Designer",
+  "duration": "6 months",
+  "team": "2 designers, 8 engineers, 1 clinical advisor",
+  "tags": [
+    "UX Design",
+    "Accessibility",
+    "Design Systems"
+  ],
+  "heroImage": "https://framerusercontent.com/images/EfAAvXDLb3EgpRxKP6jIMIcRi34.png",
+  "bannerImage": "https://framerusercontent.com/images/85c58k6PQR5kqRRAdVdhxZEyOkg.png",
+  "overview": "HealthMate is a telehealth platform that simplifies patient-provider communication. Patients can book appointments, review records, and message their care team \u2014 all in one accessible, HIPAA-compliant app.",
+  "challenge": "Patients \u2014 especially older adults and those managing chronic conditions \u2014 found existing telehealth apps confusing and anxiety-inducing. The interface felt clinical and cold, and key features were buried under layers of navigation.",
+  "solution": "We redesigned the entire patient journey around empathy and clarity. Large tap targets, plain-language copy, and a calm colour system made HealthMate feel approachable. A new unified inbox reduced the #1 support complaint overnight.",
+  "research": [
+    "Contextual interviews with 18 patients across age groups 35\u201375",
+    "Accessibility audit against WCAG 2.1 AA standards",
+    "Journey mapping workshops with clinical staff",
+    "A/B tested 4 navigation patterns with 300-participant panel"
+  ],
+  "process": [
+    {
+      "step": "Accessibility Audit",
+      "description": "Full WCAG 2.1 AA audit revealed 34 critical failures. These became the first design sprint's backlog."
+    },
+    {
+      "step": "Empathy Mapping",
+      "description": "Synthesised patient interviews into three key personas: the Anxious Patient, the Busy Carer, and the Digital Newcomer."
+    },
+    {
+      "step": "Design System",
+      "description": "Built an accessible design system with 4.5:1 minimum contrast ratios, 44px minimum tap targets, and screen-reader-tested components."
+    },
+    {
+      "step": "Validation",
+      "description": "Final prototype achieved 96% task success with older-adult participants \u2014 up from 61% at project start."
+    }
+  ],
+  "results": [
+    "Patient satisfaction score increased from 3.2 to 4.7 / 5",
+    "Support tickets down 44% in the first quarter post-launch",
+    "WCAG 2.1 AA certified \u2014 the first telehealth app in its category"
+  ],
+  "nextProject": "vpd-money"
+}
