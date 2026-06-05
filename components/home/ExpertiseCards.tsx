@@ -6,7 +6,7 @@ const cards = [
   { title: "Digital Design", description: "Crafting digital experiences that are as functional as they are beautiful.", bg: "#E6F6FF", color: "#111", rotate: 2, icon: "⌘" },
   { title: "Web Development", description: "Building robust, user-friendly websites that perform flawlessly across devices.", bg: "#B3E4FF", color: "#111", rotate: -1.5, icon: "</>" },
   { title: "Graphic Design", description: "Creating visual identities that resonate with brands and captivate audiences.", bg: "#33B8FF", color: "#fff", rotate: 2.5, icon: "⌘" },
-  { title: "Digital Marketing", description: "Strategizing online campaigns that drive engagement and boost ROI.", bg: "#0073B3", color: "#fff", rotate: 0, icon: "↗" },
+  { title: "AI Automation", description: "Integrating AI tools and workflows to accelerate design, content, and product delivery.", bg: "#0073B3", color: "#fff", rotate: 0, icon: "↗" },
 ]
 
 export default function ExpertiseCards() {

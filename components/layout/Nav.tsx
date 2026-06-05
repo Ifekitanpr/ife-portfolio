@@ -121,7 +121,7 @@ export default function Nav() {
             exit={{ opacity: 0, y: -8 }}
             transition={{ duration: 0.2, ease: "easeOut" }}
             className="fixed inset-0 z-40 nav-backdrop flex flex-col"
-            style={{ paddingTop: 72 }}
+            style={{ paddingTop: 72, backgroundColor: "rgba(255,255,255,0.97)" }}
           >
             <nav className="flex flex-col gap-2 px-8 py-8">
               {navLinks.map((link) => (

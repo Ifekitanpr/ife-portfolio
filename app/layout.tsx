@@ -40,15 +40,68 @@ const fragmentMono = Fragment_Mono({
   display: "swap",
 })
 
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://ifeoluwaemmanuel.com"
+
 export const metadata: Metadata = {
-  title: "Ifeoluwa Emmanuel — Designer + Framer Builder",
+  metadataBase: new URL(BASE_URL),
+  title: {
+    default: "Ifeoluwa Emmanuel — UI/UX & Product Designer",
+    template: "%s | Ifeoluwa Emmanuel",
+  },
   description:
-    "I help online coaches & course creators go from idea to launched platform — full UX/UI design + Framer build + AI.",
+    "UI/UX and product designer with proven experience across fintech, ed-tech, and consumer apps. Available for full-time, contract, and freelance roles. Remote, GMT+1.",
+  keywords: [
+    "UI/UX designer",
+    "product designer",
+    "UX designer portfolio",
+    "Figma designer",
+    "Framer developer",
+    "fintech UI designer",
+    "mobile app designer",
+    "ed-tech designer",
+    "Ifeoluwa Emmanuel",
+  ],
+  authors: [{ name: "Ifeoluwa Emmanuel", url: BASE_URL }],
+  creator: "Ifeoluwa Emmanuel",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   openGraph: {
-    title: "Ifeoluwa Emmanuel — Designer + Framer Builder",
-    description:
-      "Design + Framer + AI for online coaches and course creators.",
     type: "website",
+    locale: "en_US",
+    url: BASE_URL,
+    siteName: "Ifeoluwa Emmanuel",
+    title: "Ifeoluwa Emmanuel — UI/UX & Product Designer",
+    description:
+      "UI/UX and product designer with experience across fintech, ed-tech, and consumer apps. Available for full-time, contract, and freelance roles.",
+    images: [
+      {
+        url: "/ifeoluwa-portrait.jpg",
+        width: 1200,
+        height: 800,
+        alt: "Ifeoluwa Emmanuel — UI/UX & Product Designer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ifeoluwa Emmanuel — UI/UX & Product Designer",
+    description:
+      "UI/UX and product designer with experience across fintech, ed-tech, and consumer apps.",
+    creator: "@heyitsife_",
+    images: ["/ifeoluwa-portrait.jpg"],
+  },
+  icons: {
+    icon: "/icon.jpg",
+    apple: "/icon.jpg",
   },
 }
 
@@ -63,6 +116,39 @@ export default function RootLayout({
       style={{ colorScheme: "light" }}
     >
       <body className="bg-lavender text-purple-dark font-ui">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Ifeoluwa Emmanuel",
+              jobTitle: "UI/UX Designer",
+              description:
+                "UI/UX and product designer with experience across fintech, ed-tech, and consumer apps. Available for full-time, contract, and freelance roles.",
+              url: BASE_URL,
+              image: `${BASE_URL}/ifeoluwa-portrait.jpg`,
+              email: "go4utech@gmail.com",
+              sameAs: [
+                "https://www.linkedin.com/in/ifeoluwa-ajele/",
+                "https://www.instagram.com/heyitsife_/",
+                "https://x.com/heyitsife_",
+                "https://web.facebook.com/ajele.ifeoluwa/",
+              ],
+              knowsAbout: [
+                "UI/UX Design",
+                "Product Design",
+                "Interaction Design",
+                "Design Systems",
+                "Framer Development",
+                "Figma",
+                "Fintech Design",
+                "Ed-tech Design",
+                "Mobile App Design",
+              ],
+            }),
+          }}
+        />
         <Nav />
         <main>{children}</main>
         <Footer />
