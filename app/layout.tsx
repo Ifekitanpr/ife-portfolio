@@ -40,7 +40,7 @@ const fragmentMono = Fragment_Mono({
   display: "swap",
 })
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://ifeoluwaemmanuel.com"
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://heyitsife.vercel.app"
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
