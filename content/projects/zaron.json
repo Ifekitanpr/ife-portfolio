@@ -89,5 +89,5 @@
     "Redesigning an existing product means managing expectations on both sides. Stakeholders had mental models built around the old CMS. Every structural change needed a clear rationale, not just a better-looking screen.",
     "A design system is a team deliverable, not a designer artefact. The most useful thing I built wasn't a single screen, it was the component library that let the engineering team build confidently without checking in on every edge case."
   ],
-  "nextProject": "vividlyrics"
+  "nextProject": "wash"
 }

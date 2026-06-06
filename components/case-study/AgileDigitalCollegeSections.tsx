@@ -158,25 +158,32 @@ function RotatingStage({ images, mode = "contain" }: Pick<Pillar, "images" | "mo
 
 function FullPageStage() {
   const [pageIndex, setPageIndex] = useState(0)
+  const [imageReady, setImageReady] = useState(false)
   const reduceMotion = useReducedMotion()
   const page = pillarOnePages[pageIndex]
-  // Each "stop" = ~2400ms of continuous scroll; gives proportionally longer time to taller pages
-  const scrollMs = page.stops * 2400
+  const heroHoldMs = 5000
+  const footerHoldMs = 2800
+  // Taller pages receive more scroll time so sections remain readable in motion.
+  const scrollMs = page.stops * 4200
 
   useEffect(() => {
-    const total = reduceMotion ? 4000 : scrollMs + 700
+    if (!imageReady) return
+    const total = reduceMotion ? 6500 : heroHoldMs + scrollMs + footerHoldMs
     const t = window.setTimeout(
-      () => setPageIndex((p) => (p + 1) % pillarOnePages.length),
+      () => {
+        setImageReady(false)
+        setPageIndex((p) => (p + 1) % pillarOnePages.length)
+      },
       total
     )
     return () => window.clearTimeout(t)
-  }, [pageIndex, scrollMs, reduceMotion])
+  }, [footerHoldMs, heroHoldMs, imageReady, pageIndex, scrollMs, reduceMotion])
 
   return (
     <div className="adc-stage adc-full-page-stage">
       <div className="adc-stage-topline">
         <span>{page.label}</span>
-        <span>{String(pageIndex + 1).padStart(2, "0")} / {String(pillarOnePages.length).padStart(2, "0")}</span>
+        <span>{imageReady ? "Hero view" : "Loading page"} · {String(pageIndex + 1).padStart(2, "0")} / {String(pillarOnePages.length).padStart(2, "0")}</span>
       </div>
       <div className="adc-stage-window">
         {/* Inset viewport — dark strips on left/right make the scroll direction obvious */}
@@ -200,12 +207,16 @@ function FullPageStage() {
                 className={
                   reduceMotion
                     ? "object-cover object-top"
-                    : "adc-page-scroll-image"
+                    : `adc-page-scroll-image ${imageReady ? "is-ready" : ""}`
                 }
+                onLoad={() => setImageReady(true)}
                 style={
                   reduceMotion
                     ? undefined
-                    : { animationDuration: `${scrollMs}ms` }
+                    : {
+                        animationDelay: `${heroHoldMs}ms`,
+                        animationDuration: `${scrollMs}ms`,
+                      }
                 }
               />
             </motion.div>
@@ -217,7 +228,10 @@ function FullPageStage() {
           <button
             type="button"
             className={index === pageIndex ? "is-active" : ""}
-            onClick={() => setPageIndex(index)}
+            onClick={() => {
+              setImageReady(false)
+              setPageIndex(index)
+            }}
             key={item.src}
           >
             <span>{String(index + 1).padStart(2, "0")}</span>{item.label}
@@ -265,8 +279,7 @@ const adcResults = [
 const buttonFamilies = [
   { name: "Primary", className: "adc-matrix-primary" },
   { name: "Secondary", className: "adc-matrix-secondary" },
-  { name: "Borderless", className: "adc-matrix-borderless" },
-  { name: "Bordered", className: "adc-matrix-bordered" },
+  { name: "Tertiary", className: "adc-matrix-borderless" },
   { name: "Link", className: "adc-matrix-link" },
 ]
 
